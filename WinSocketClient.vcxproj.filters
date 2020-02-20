@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="exceptions">
+      <UniqueIdentifier>{4893fda5-d1ea-41ff-8e16-52628c503338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{d293a8a5-1fad-4f59-bb7b-842ff66aa411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="macros">
+      <UniqueIdentifier>{d102a476-ff73-4d6c-bbc9-53c232732fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{26bc6b84-dfe9-4f02-a4ea-2e02b3d72f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\encodings">
+      <UniqueIdentifier>{6c7bb0b9-5cb9-4d9b-b286-dacdbb463ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\time">
+      <UniqueIdentifier>{b4aeb3b1-a0e3-4a6a-a645-976bfaea25d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\synchronize">
+      <UniqueIdentifier>{472c1388-6c68-4470-8e3c-eece8f615d50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinSocketClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\Exception.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\SQLiteException.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\SystemException.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\WSAException.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="log\Log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\encodings\CharEncodings.cpp">
+      <Filter>utils\encodings</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\time\TimeUtils.cpp">
+      <Filter>utils\time</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\SocketUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\synchronize\Event.cpp">
+      <Filter>utils\synchronize</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\Exception.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\SQLiteException.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\SystemException.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\WSAException.h">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="log\Log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="macros\ttype.h">
+      <Filter>macros</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\encodings\CharEncodings.h">
+      <Filter>utils\encodings</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\time\TimeUtils.h">
+      <Filter>utils\time</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\SocketUtils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\synchronize\CSLocker.h">
+      <Filter>utils\synchronize</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\synchronize\Event.h">
+      <Filter>utils\synchronize</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

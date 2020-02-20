@@ -82,6 +82,11 @@ Release/*.out
 Debug/*.app
 Release/*.app
 
+Debug/*.iobj
+Debug/*.ipdb
+Release/*.ipdb
+Release/*.iobj
+
 # output files
 *.map
 *.cod
